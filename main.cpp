@@ -5,7 +5,6 @@
 //  Created by Артем Козьмин on 16/11/2018.
 //  Copyright © 2018 Артем Козьмин. All rights reserved.
 //
-#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
