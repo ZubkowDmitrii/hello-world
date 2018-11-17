@@ -5,7 +5,7 @@
 //  Created by Артем Козьмин on 16/11/2018.
 //  Copyright © 2018 Артем Козьмин. All rights reserved.
 //
-
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -230,9 +230,6 @@ bool Units::debug = true;
 //size_t SQUAD_HEALTH;    //количество здоровья во всём отряде
 int main() {
     Units *latnic = new Military(1,"latnic",10,0,5,150,30,4500);
-    Units *latnic1 = new Military(1,"latnic",10,0,5,150,70,4700);
-    Units *latnic2 = new Military(1,"latnic",10,0,5,150,70,4200);
+    system("pause");
     return 0;
 }
-
-
