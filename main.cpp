@@ -231,6 +231,7 @@ bool Units::debug = true;
 int main() {
     Units *latnic = new Military(1,"latnic",10,0,5,150,30,4500);
     Units *latnic1 = new Military(1,"latnic",10,0,5,150,70,4700);
+    Units *latnic2 = new Military(1,"latnic",10,0,5,150,70,4200);
     return 0;
 }
 
